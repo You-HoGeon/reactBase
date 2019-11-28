@@ -1,7 +1,8 @@
 import React from 'react';
-import './App.css';
+import './Intro.scss';
+import imgReact from './react.png';
 
-class App extends React.Component {
+class Intro extends React.Component {
   constructor() {
     super();
     this.state = { title: 'test' };
@@ -12,10 +13,11 @@ class App extends React.Component {
     return (
       <div id="App">
         Hello Worlds
+        <img src={imgReact} alt="Intro" />
         {title}
       </div>
     );
   }
 }
 
-export default App;
+export default Intro;
