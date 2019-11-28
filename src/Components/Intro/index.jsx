@@ -1,5 +1,5 @@
 import React from 'react';
-import './Intro.scss';
+import './style.scss';
 import imgReact from './react.png';
 
 /* class Intro extends React.Component {
@@ -20,10 +20,10 @@ import imgReact from './react.png';
 } */
 
 const Intro = () => (
-  <div id="intro">
-    <img src={imgReact} alt="Intro" id="img_intro" />
-    <h1 id="header_intro">React Base</h1>
-    <h2 id="description_intro">Design your react app.</h2>
+  <div className="container-intro">
+    <img src={imgReact} alt="Intro" className="logo" />
+    <h1 className="header">React Base</h1>
+    <h2 className="description">Design your react app.</h2>
   </div>
 );
 
