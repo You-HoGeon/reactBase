@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.scss';
-import imgReact from './react.png';
+import imgReact from '~assets/react.png';
 
 /* class Intro extends React.Component {
   constructor() {
